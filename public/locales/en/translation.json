@@ -1,0 +1,12 @@
+{
+    "Header":{
+        "File":"File",
+        "System":"System",
+        "Concession":"Concession",
+        "Theatre":"Theatre",
+        "Film":"Film",
+        "Reports":"Reports",
+        "DataReceipt":"Data Receipt",
+        "Help":"Help"
+    }
+}

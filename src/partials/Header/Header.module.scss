@@ -1,0 +1,52 @@
+@use "../../styles/tokens" as *;
+.Header {
+    display: flex;
+    background-color: #2f80ed;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.HeaderTitle {
+    font-weight: bold;
+    font-size: $FONT_SIZE-3;
+}
+
+.StoreNav{
+    display: flex;
+    min-height: 80px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    background: #0A0B0D;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.Search{
+    position: absolute;
+    left: 82.22%;
+    right: 15.56%;
+    top: 24.14%;
+    bottom: 20.69%;
+}
+
+.HeaderRight{
+    display:flex;
+    min-width:350px;
+    justify-content:space-between;
+    margin-right:50px
+}
+
+@media (max-width: $MOBILE_SCREEN) {
+    .btnContainer {
+      display: none ; 
+    }
+    .HeaderRight{
+        display:flex;
+        justify-content:right;
+    }
+  }
+

@@ -1,0 +1,11 @@
+@use "../../../styles/tokens" as *;
+
+.HeaderLinkParent{
+    display: flex;
+    cursor: pointer;
+    color: $INVERSE_TEXT_COLOR;
+    height: 40px;
+}
+.HeaderLink {
+    text-decoration: none;
+}

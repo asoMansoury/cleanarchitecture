@@ -1,0 +1,19 @@
+@use "../../styles/tokens" as *;
+
+.Menu{
+    display: flex;
+    background-color: $WHITE;
+    justify-content: space-between;
+    min-height: 60px;
+    align-items: center;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .Menu {
+      display: none ; 
+    }
+  }
+
